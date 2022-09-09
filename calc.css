@@ -1,0 +1,241 @@
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(185, 41%, 84%);
+}
+
+input {
+    background-color: hsl(185, 41%, 84%);
+}
+
+div {
+    border-radius: 7px;
+}
+
+input {
+    text-align: right;
+    border-radius: 7px;
+}
+
+#main {
+    min-height: 350px;
+    min-width: 650px;
+    background-color: hsl(189, 41%, 97%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 25px hsl(183, 100%, 15%) ;
+}
+
+#left-box {
+    position:relative;
+    margin-left: 5px;
+    height: 275px;
+    width: 275px;
+    background-color: hsl(189, 41%, 97%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#right-box {
+    display: flex;
+    position: relative;
+    margin-right: 5px;
+    height: 275px;
+    width: 275px;
+    background-color: hsl(183, 100%, 15%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-input {
+    position:absolute;
+    width: 225px;
+    height: 24px;
+    top: 30px;
+    border: none;
+}
+
+#bottom-input {
+    position: absolute;
+    bottom: 30px;
+    width: 225px;
+    height: 24px;
+    border: none;
+}
+
+.button-container {
+    position: absolute;
+    height: 48px;
+    width: 233px;
+}
+
+#top-container {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom-container {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    height: 35px;
+    width: 65px;
+    background-color: hsl(183, 100%, 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(189, 41%, 97%);
+    transition: 1s;
+}
+
+
+#custom-input {
+    height: 33px;
+    width: 63px;
+    background-color: hsl(185, 41%, 84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-align: center;
+}
+
+#reset {
+    display: flex;
+    height: 35px;
+    width: 225px;
+    background-color: hsl(172, 67%, 45%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 15px;
+    color: hsl(183, 100%, 15%);
+    transition: 1s;
+}
+
+#top-result {
+    position: absolute;
+    right: 25px;
+    top: 40px;
+    max-width: 115px;
+    overflow: hidden;
+    color: hsl(172, 67%, 45%);
+    font-size: 24px;
+}
+
+#bottom-result {
+    position: absolute;
+    right: 25px;
+    top: 120px;
+    overflow: hidden;
+    max-width: 115px;
+    color: hsl(172, 67%, 45%);
+    font-size: 24px;
+}
+
+#total {
+    position: absolute;
+    left: 25px;
+    top: 40px;
+    color: hsl(185, 41%, 84%);
+}
+
+#tip-amount {
+    position: absolute;
+    left: 25px;
+    top: 120px;
+    color: hsl(185, 41%, 84%);
+}
+
+#person-top {
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    color: hsl(185, 41%, 84%);
+}
+
+#person-bottom {
+    position: absolute;
+    left: 25px;
+    top: 140px;
+    color: hsl(185, 41%, 84%);
+}
+
+#bill {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    color: hsl(186, 14%, 43%);
+}
+
+#selector {
+    position: absolute;
+    top: 65px;
+    left: 25px;
+    color: hsl(186, 14%, 43%);
+}
+
+#number-people {
+    position: absolute;
+    bottom: 65px;
+    left: 25px;
+    color: hsl(186, 14%, 43%);
+}
+
+#submit {
+    display: flex;
+    height: 35px;
+    width: 225px;
+    background-color: hsl(172, 67%, 45%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 60px;
+    color: hsl(183, 100%, 15%);
+    transition: 1s;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(172, 67%, 45%);
+}
+
+#reset:hover {
+    background-color: hsl(185, 41%, 84%);
+    cursor: pointer;
+    color: hsl(183, 100%, 15%);
+}
+
+@media screen {
+    
+}
