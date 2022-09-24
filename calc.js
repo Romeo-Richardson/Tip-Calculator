@@ -1,11 +1,14 @@
-
+function closeModal(){
+    let modal = document.getElementById('modal-blur');
+    modal.style.transform = 'scale(0)';
+};
 
 let elements = {
     topResult: document.getElementById('top-result'),
     bottomResult: document.getElementById('bottom-result'),
     topInput: document.getElementById('top-input'),
     bottomInput: document.getElementById('bottom-input')
-}
+};
 
 let tipPercentage = 0;
 let bill = 0;

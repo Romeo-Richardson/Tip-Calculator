@@ -2,6 +2,69 @@
     font-family: 'Space Mono', monospace;
 }
 
+#modal-blur {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 83, 83, .5);
+}
+
+#modal {
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: scale(1);
+}
+
+#modal-nav {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+}
+
+#modal-title {
+    font-size: 36px;
+    position: absolute;
+}
+
+#modal-text {
+    position: absolute;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#modal-continue {
+    height: 48px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-continue:hover {
+    cursor: pointer;
+}
+
 body {
     display: flex;
     justify-content: center;
